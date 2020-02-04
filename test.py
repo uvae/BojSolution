@@ -1,1 +1,2 @@
-print(bin(int(input(),8))[2:])
+n, m, k = map(int, input().split())
+print(k+n-m if m>k else m+n-k)

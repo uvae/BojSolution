@@ -1,0 +1,2 @@
+l = [list(map(int, input().split())) for _ in range(3)]
+print(l[0][0] if l[1][0] == l[2][0] else l[1][0] if l[0][0] == l[2][0] else l[2][0], l[0][1] if l[1][1] == l[2][1] else l[1][1] if l[0][1] == l[2][1] else l[2][1])
