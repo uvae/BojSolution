@@ -1,0 +1,1 @@
+print([2**i for i in range(31)].count(int(input())))
